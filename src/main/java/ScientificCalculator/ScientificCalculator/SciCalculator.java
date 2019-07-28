@@ -106,7 +106,7 @@ public class SciCalculator {
 
 	private String getResult() throws InterruptedException {
 		Thread.sleep(1000);
-		return control.winGetText(APPLICATION_TITLE);
+		return control.winGetTitle(APPLICATION_TITLE);
 	}
 
 	// This method is used to click on number
